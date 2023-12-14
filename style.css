@@ -64,9 +64,7 @@ body {
     height: auto;
 }
 
-li .dropdown-menu {
-    text-align: right;
-}
+
 
 .dropdown-item:hover {
     background-color: #2D3C57 !important;
@@ -152,8 +150,11 @@ li .dropdown-menu {
 
 
 
-
 @media (max-width: 992px) {
+
+    li .dropdown-menu {
+        text-align: right;
+    }
 
     .welcome-hero,
     .menu-inner {
@@ -186,5 +187,15 @@ li .dropdown-menu {
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+}
+
+@media (max-width: 540px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    li .dropdown-menu {
+        text-align: center;
     }
 }
