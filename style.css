@@ -1,11 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Lexend:wght@300;400;500;600;700;800&family=Mulish:wght@300;400;500;600;700;800&family=Patua+One&display=swap');
+
+/* font-family: 'Caprasimo', serif;
+font-family: 'Lexend', sans-serif;
+font-family: 'Mulish', sans-serif;
+font-family: 'Patua One', serif; */
+
 html {
     margin: 0 !important;
     padding: 0 !important;
 }
 
+h1,
+h4 {
+    font-family: 'Patua One', serif;
+}
 
-.navbar, .navbar-collapse .dropdown-menu {
-    background-color: #0B1E47  !important;
+p {
+    font-family: 'Mulish', sans-serif;
+}
+
+
+.navbar,
+.navbar-collapse .dropdown-menu {
+    background-color: #0B1E47 !important;
 }
 
 .navbar a {
@@ -20,7 +37,7 @@ html {
 
 .navbar-toggler {
     border: none !important;
-    
+
     /* border-color: white !important; */
 }
 
@@ -46,9 +63,18 @@ html {
     background-color: #2D3C57 !important;
 }
 
+.navbar a {
+    font-family: 'Mulish', sans-serif;
+}
+
 .navbar a:hover {
     color: #B84444 !important;
 }
+
+
+
+
+
 
 .carousel-inner {
     max-height: 80vh !important;
@@ -68,7 +94,7 @@ html {
     /* object-fit: contain !important; */
 
     object-fit: cover;
-  } 
+}
 
 .menu-hero {
     background-color: #0B1E47 !important;
@@ -88,7 +114,7 @@ html {
 }
 
 .footer {
-    background-color: #0B1E47 ;
+    background-color: #0B1E47;
     color: white;
 }
 
@@ -98,4 +124,34 @@ html {
 
 .footer ul {
     list-style: none;
+}
+
+
+
+
+
+@media (max-width: 992px) {
+
+    .welcome-hero,
+    .menu-hero {
+        text-align: center;
+    }
+
+    .welcome-hero,
+    .row {
+        display: flex;
+        justify-content: center;
+    }
+
+    .menu-hero,
+    .row {
+        display: flex;
+        justify-content: center;
+    }
+
+    .menu-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
