@@ -5,6 +5,7 @@ font-family: 'Lexend', sans-serif;
 font-family: 'Mulish', sans-serif;
 font-family: 'Patua One', serif; */
 
+
 html {
     margin: 0 !important;
     padding: 0 !important;
@@ -17,6 +18,10 @@ h4 {
 
 p {
     font-family: 'Mulish', sans-serif;
+}
+
+body {
+    background-color: rgb(180, 154, 105);
 }
 
 
@@ -59,6 +64,10 @@ p {
     height: auto;
 }
 
+li .dropdown-menu {
+    text-align: right;
+}
+
 .dropdown-item:hover {
     background-color: #2D3C57 !important;
 }
@@ -87,8 +96,11 @@ p {
     /* background-color: #B84444 !important; */
 }
 
+.welcome-hero {
+    width: 80% !important;
+}
+
 .welcome-img {
-    background-color: orange;
     height: 400px !important;
 }
 
@@ -98,10 +110,19 @@ p {
     object-fit: cover;
 }
 
+.menu-inner {
+    width: 80% !important;
+}
+
 .menu-hero {
     background-color: #0B1E47 !important;
     color: white;
 }
+
+.gallery {
+    background-color: #ffe0bd
+}
+
 
 .join-us {
     background-image: url(img/bg.jpg);
@@ -133,6 +154,11 @@ p {
 
 
 @media (max-width: 992px) {
+
+    .welcome-hero,
+    .menu-inner {
+        width: 100% !important;
+    }
 
     .welcome-text,
     .menu-text {
