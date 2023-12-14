@@ -65,6 +65,7 @@ p {
 
 .navbar a {
     font-family: 'Mulish', sans-serif;
+    font-weight: bold;
 }
 
 .navbar a:hover {
@@ -82,7 +83,8 @@ p {
 
 .banner {
     min-height: 65px !important;
-    background-color: #B84444 !important;
+    background-color: #ffe0bd !important;
+    /* background-color: #B84444 !important; */
 }
 
 .welcome-img {
@@ -92,7 +94,7 @@ p {
 
 .welcome-img img {
     /* object-fit: contain !important; */
-
+    /* width: 200px; */
     object-fit: cover;
 }
 
@@ -131,6 +133,11 @@ p {
 
 
 @media (max-width: 992px) {
+
+    .welcome-text,
+    .menu-text {
+        padding-top: 30px;
+    }
 
     .welcome-hero,
     .menu-hero {
