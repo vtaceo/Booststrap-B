@@ -191,6 +191,18 @@ body {
 }
 
 @media (max-width: 540px) {
+    /* .banner {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    } */
+
+    .banner h4 {
+        font-size: 16px;
+        margin: auto;
+        width: 80% !important;
+    }
+
     .navbar-nav {
         text-align: center;
     }
